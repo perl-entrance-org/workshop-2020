@@ -83,6 +83,10 @@ PerlはC言語や<ruby>sed<rt>セド</rt></ruby>、<ruby>awk<rt>オーク</rt></
 
 Perlは後に開発されたRuby(1995年)やPHP(1995年)に影響を与えました。
 
+<a href="https://www.levenez.com/lang/">Computer Languages History</a>
+
+<a href="https://exploring-data.com/vis/programming-languages-influence-network/#Perl">Programming Languages Influence Network | Exploring Data</a>
+
 ___
 ## Perlの特徴
 <a href="https://ja.wikipedia.org/wiki/Perl" target="_blank">Wikipediaの記事</a>から重要なものだけ引用します。
