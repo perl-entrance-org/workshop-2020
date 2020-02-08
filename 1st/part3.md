@@ -251,7 +251,7 @@ ___
 
 ネットの情報は玉石混交、一方で書籍の場合は情報の陳腐化があり、一長一短と言えます。
 
-最初は誰しも「記号」が分からないので、ググるにも手がかりが無い場合、ドキュメント(<ruby>`perldoc`<rt>パールドック</rt></ruby> / <a href="https://perldoc.jp/" target="_blank">perldoc.jp</a>)を活用しましょう。
+最初は誰しも「記号」が分からないので、ググるにも手がかりが無い場合、ドキュメント(<ruby>`perldoc`<rt>パールドック</rt></ruby> / <a href="https://perldoc.perl.org/" target="_blank">perldoc.perl.org</a> / <a href="https://perldoc.jp/" target="_blank">perldoc.jp</a>)を活用しましょう。
 
 ___
 ## オススメの書籍
@@ -324,14 +324,9 @@ $ perldoc -f print
 
 先に登場した<a href="https://perldoc.jp/" target="_blank">perldoc.jp</a>でも確認が可能です。
 
-___
-## perldocとドキュメント
-```bash
-$ perldoc Term::ANSIColor
-```
-モジュールについて調べる場合にも、perldocコマンドを利用します。
+スクリプトに機能追加を行う**モジュール**（第４回で説明）も同様に`perldoc`や, インターネット上の`perldoc.perl.org`, `perldoc.jp`で確認が可能です。
 
-先に登場した<a href="https://perldoc.jp/" target="_blank">perldoc.jp</a>でも確認が可能です。
+<!-- <a https://perldoc.perl.org/Term/ANSIColor.html -->
 
 ___
 ## 練習問題 (1)
@@ -341,8 +336,9 @@ print命令を複数個使って、Perl入学式とYAPCの情報を表示する�
 
 - print命令を複数書く場合にはセミコロンで文を区切りましょう。
 
-- セミコロンの後に改行を入れて複数の行にして読みやすくするのが通常です。
+    - セミコロンの後に改行を入れて複数の行にして読みやすくするのが通常です。
 
+    - プログラムは上から順に実行されます。
 ___
 ## 練習問題 (2)
 ```bash
