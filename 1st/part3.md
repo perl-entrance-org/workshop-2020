@@ -330,8 +330,6 @@ $ perldoc -f print
 
 スクリプトに機能追加を行う**モジュール**（第４回で説明）も同様に`perldoc`や, インターネット上の`perldoc.perl.org`, `perldoc.jp`で確認が可能です。
 
-<!-- <a https://perldoc.perl.org/Term/ANSIColor.html -->
-
 ___
 ## 練習問題 (1)
 print命令を複数個使って、Perl入学式とYAPCの情報を表示するスクリプト`yapc.pl`を書いてみましょう。
