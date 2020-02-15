@@ -55,7 +55,7 @@ ___
 
 ___
 ## リファレンス、その前に
-### 第1回：スカラー変数
+### 第2回：スカラー変数
 ```perl
 my $scalar = 'Hello world';
 print $scalar . "\n";    # Hello world
