@@ -83,6 +83,10 @@ PerlはC言語や<ruby>sed<rt>セド</rt></ruby>、<ruby>awk<rt>オーク</rt></
 
 Perlは後に開発されたRuby(1995年)やPHP(1995年)に影響を与えました。
 
+<a href="https://www.levenez.com/lang/">Computer Languages History</a>
+
+<a href="https://exploring-data.com/vis/programming-languages-influence-network/#Perl">Programming Languages Influence Network | Exploring Data</a>
+
 ___
 ## Perlの特徴
 <a href="https://ja.wikipedia.org/wiki/Perl" target="_blank">Wikipediaの記事</a>から重要なものだけ引用します。
@@ -251,7 +255,7 @@ ___
 
 ネットの情報は玉石混交、一方で書籍の場合は情報の陳腐化があり、一長一短と言えます。
 
-最初は誰しも「記号」が分からないので、ググるにも手がかりが無い場合、ドキュメント(<ruby>`perldoc`<rt>パールドック</rt></ruby> / <a href="https://perldoc.jp/" target="_blank">perldoc.jp</a>)を活用しましょう。
+最初は誰しも「記号」が分からないので、ググるにも手がかりが無い場合、ドキュメント(<ruby>`perldoc`<rt>パールドック</rt></ruby> / <a href="https://perldoc.perl.org/" target="_blank">perldoc.perl.org</a> / <a href="https://perldoc.jp/" target="_blank">perldoc.jp</a>)を活用しましょう。
 
 ___
 ## オススメの書籍
@@ -324,14 +328,7 @@ $ perldoc -f print
 
 先に登場した<a href="https://perldoc.jp/" target="_blank">perldoc.jp</a>でも確認が可能です。
 
-___
-## perldocとドキュメント
-```bash
-$ perldoc Term::ANSIColor
-```
-モジュールについて調べる場合にも、perldocコマンドを利用します。
-
-先に登場した<a href="https://perldoc.jp/" target="_blank">perldoc.jp</a>でも確認が可能です。
+スクリプトに機能追加を行う**モジュール**（第４回で説明）も同様に`perldoc`や, インターネット上の`perldoc.perl.org`, `perldoc.jp`で確認が可能です。
 
 ___
 ## 練習問題 (1)
@@ -341,8 +338,9 @@ print命令を複数個使って、Perl入学式とYAPCの情報を表示する�
 
 - print命令を複数書く場合にはセミコロンで文を区切りましょう。
 
-- セミコロンの後に改行を入れて複数の行にして読みやすくするのが通常です。
+    - セミコロンの後に改行を入れて複数の行にして読みやすくするのが通常です。
 
+    - プログラムは上から順に実行されます。
 ___
 ## 練習問題 (2)
 ```bash
@@ -378,8 +376,8 @@ use warnings;
 以下、この資料のサンプルコードでは「お約束」を省略します。**書かれているもの**として扱ってください。　
 
 ___
-## 練習問題 (hello.pl)
-先程の冒頭の3行のおまじないを加えた上で、`Hello, world`という文字列を出力する`hello.pl`を作成しよう
+## 練習問題 (hello_perl.pl)
+先程の冒頭の3行のおまじないを加えた上で、`Hello, Perl`という文字列を出力する`hello_perl.pl`を作成しよう
 
 - ヒント: 文字列は`"`で囲む
 
